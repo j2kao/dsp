@@ -19,7 +19,14 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd
+* mkdir
+* rmdir
+* touch readme.txt
+* rm readme.txt
+* mv readme.txt readme2.txt
+* ls a
+* cp ./a/readme.txt ./b/readme.txt
 
 ---
 
@@ -34,7 +41,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* list files
+* list files including hidden files
+* list files with long format (permissions)
+* list files with long format, file size formatted
+* list files including hidden files with long format, file size formatted
+* list files by time
+* list files with long format, colorized output, slash for directory
 
 ---
 
@@ -42,7 +55,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+-L	Displays the file or directory referenced by a symbolic link.
+-r	Displays files in reverse order.
+-R	Displays subdirectories as well.
+-t	Displays newest files first. (based on timestamp)
+-u	Displays files by the file access time.
 
 ---
 
@@ -50,7 +67,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs lets you take inputs and applies them to commands
+
+e.g.,
+
+```console
+find . -maxdepth 1 -name "*.txt" | xargs grep "text_to_search"
+```
 
  
 
