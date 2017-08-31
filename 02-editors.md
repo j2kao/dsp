@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> nano -- it's simple to use and I avoid terminal editing whenever I can
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> pycharm -- I've tried a few other editors (sublime, eclipse w/ plugin, atom). Pycharm has a good debugger, and it's quite similar to eclipse, which I am more familiar with. It also is able to choose intepreters, add run options, etc. It is pretty high amount of integration with python out of the box, and I don't have to install a bunch of plugins, so it's my preferred choice for now.
 
  
